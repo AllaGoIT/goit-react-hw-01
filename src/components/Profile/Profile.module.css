@@ -1,0 +1,79 @@
+.container {
+  width: 300px;
+  height: 306px;
+  border: 4px solid black;
+  border-radius: 4px;
+}
+
+.containerImage {
+  padding-top: 50px;
+  height: 200px;
+}
+.imageUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 50px;
+  border-radius: solid 4px color black;
+  background-color: black;
+  margin-left: 100px;
+}
+
+.nameUser {
+  color: black;
+
+  font-family: "Impact", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: bold;
+  width: 100%;
+}
+
+.tagUser {
+  display: flex;
+  color: gray;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.locationUser {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.listActivities {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  border: 4px;
+
+  background-color: rgb(247, 238, 238);
+  width: 300px;
+  padding-top: 0px;
+  border-bottom: 4px solid black;
+  justify-content: center;
+  align-items: center;
+  border-radius: color gray;
+}
+li {
+  border: 1px solid black;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
