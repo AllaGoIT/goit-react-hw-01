@@ -1,10 +1,11 @@
+import css from "./FriendListItem.module.css";
 
 const FriendListItem = ({friend:{avatar, name, isOnline }}) => {
     return (
-        <div>
-  <img src={avatar} alt="Avatar" width="48" />
-            <p>{name}</p>
-            <p>{isOnline}</p>    
+        <div className={css.container}>
+            <img className={css.images} src={avatar} alt="Avatar" width="48" />
+            <p className={css.textName}>{name}</p>
+            <p className={css.textStatus}>{isOnline}</p>    
 </div>
 
     )
