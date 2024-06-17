@@ -34,37 +34,38 @@ td {
   flex-direction: column;
   align-self: auto;
 } */
-/* .containerName {
-  display: flex;
+/* .containerName { */
+/* display: flex;
   flex-direction: row;
-  gap: 100px;
-  padding-left: 50px;
-  width: 400px;
-}
-
-.containerValue {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.containerTotal {
-  display: flex;
-  flex-direction: row;
-  width: 100px;
-  padding-top: 10px;
-}*/
-/* .valueType {
-  display: flex;
-  flex-direction: row; */
+  gap: 100px; */
 /* padding-left: 50px; */
-/* width: 133px; */
-/* }
-.valueAmount {
-  display: flex; */
-/* flex-direction: row;
-  /* padding-left: 195px; */
-/* width: 133px; */
+/* width: 400px; */
 /* } */
+
+/* .containerValue { */
+/* display: flex;
+  flex-direction: column;
+  gap: 10px; */
+/* width: 400px; */
+/* }
+.containerTotal {
+  /* display: flex;
+  flex-direction: row; */
+/* width: 100px; */
+/* padding-top: 10px; */
+/* } */
+/* .valueType {
+  /* display: flex;
+  flex-direction: row;  */
+/* padding-left: 50px;
+  width: 133px; */
+/* } */
+/* .valueAmount {
+  /* display: flex;  */
+/* flex-direction: row;*/
+/* padding-left: 195px;
+  width: 133px; */
+/* }  */
 
 /* .valueCurrency {
   display: flex; */
