@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  display: grid;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+td {
+  display: grid;
+}
+
+/* .container {
+  display: block;
+  flex-direction: column;
+  align-self: auto;
+} */
+/* .containerName {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding-left: 50px;
+  width: 400px;
+}
+
+.containerValue {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.containerTotal {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  padding-top: 10px;
+}*/
+/* .valueType {
+  display: flex;
+  flex-direction: row; */
+/* padding-left: 50px; */
+/* width: 133px; */
+/* }
+.valueAmount {
+  display: flex; */
+/* flex-direction: row;
+  /* padding-left: 195px; */
+/* width: 133px; */
+/* } */
+
+/* .valueCurrency {
+  display: flex; */
+
+/* padding-left: 300px;
+  padding-left: 400px; */
+
+/* table,
+th,
+td {
+  border: 1px solid black;
+} */
