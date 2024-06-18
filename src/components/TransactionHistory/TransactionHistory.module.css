@@ -5,76 +5,23 @@
 }
 
 table {
-  width: 100%;
+  width: 50%;
   border-collapse: collapse;
-  display: grid;
 }
+
 th,
 td {
-  border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
+  border: 2px solid rgb(114, 108, 108);
 }
 th {
-  background-color: #f2f2f2;
+  background-color: black;
+  color: #ffffff;
 }
 tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #aaa4a4;
 }
 tr:nth-child(odd) {
   background-color: #ffffff;
 }
-
-td {
-  display: inline-grid;
-}
-
-/* .container {
-  display: block;
-  flex-direction: column;
-  align-self: auto;
-} */
-/* .containerName { */
-/* display: flex;
-  flex-direction: row;
-  gap: 100px; */
-/* padding-left: 50px; */
-/* width: 400px; */
-/* } */
-
-/* .containerValue { */
-/* display: flex;
-  flex-direction: column;
-  gap: 10px; */
-/* width: 400px; */
-/* }
-.containerTotal {
-  /* display: flex;
-  flex-direction: row; */
-/* width: 100px; */
-/* padding-top: 10px; */
-/* } */
-/* .valueType {
-  /* display: flex;
-  flex-direction: row;  */
-/* padding-left: 50px;
-  width: 133px; */
-/* } */
-/* .valueAmount {
-  /* display: flex;  */
-/* flex-direction: row;*/
-/* padding-left: 195px;
-  width: 133px; */
-/* }  */
-
-/* .valueCurrency {
-  display: flex; */
-
-/* padding-left: 300px;
-  padding-left: 400px; */
-
-/* table,
-th,
-td {
-  border: 1px solid black;
-} */
